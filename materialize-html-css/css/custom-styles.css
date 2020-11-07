@@ -1,0 +1,25 @@
+/* CUSTOM STYLES */
+.container {
+    max-width: 100%;
+}
+
+/* #main-body {
+    background: url("../images/comic-book-template-1.jpg") center top no-repeat;
+    background-size: cover;
+} */
+
+.icon-block {
+    background-color: aqua;
+    border: 3px solid #000;
+    
+}
+
+.icon-block img{
+    max-width: 100%;
+}
+
+
+@media only screen and (min-width: 993px) {
+.container {
+    width: 100%;
+}

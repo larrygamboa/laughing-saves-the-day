@@ -1,6 +1,6 @@
 $(document).ready(function () {
   function displayMeme() {
-    var queryURL = "https://meme-api.herokuapp.com/gimme/marvelmemes/7";
+    var queryURL = "https://meme-api.herokuapp.com/gimme/dankmemes/7";
     console.log(queryURL)
 
     $.ajax({
@@ -43,3 +43,11 @@ $(document).ready(function () {
   displayMeme();
   displayJoke();
 });
+
+$("#impactpg").on("click", function (){
+  
+  window.location.href="index2.html"
+  console.log("test Test")
+
+})
+

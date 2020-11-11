@@ -44,10 +44,26 @@
   transform: rotate(-20deg); 
   margin-top: 100px;
   margin-left: 100px;
-  transition: transform .2s cubic-bezier(0.35,-0.63, 0.74, 1.54);
+  transition: transform 2.5s cubic-bezier(0.07,-2.87, 0.5, 3.04);
 }
 .parent:hover #impactpg1{
     transform: rotate(5deg);
+   
+
+}
+
+#impactpg{
+    height:540px;
+  width: auto;
+  /* background: transparent left; */
+  
+  margin-top: 100px;
+  margin-left: 100px;
+  transition: transform 3s cubic-bezier(0.07,-2.87, 0.5, 3.04);
+}
+.parent:hover #impactpg{
+    transform: rotate(20deg);
+    transform: rotate();
    
 
 }

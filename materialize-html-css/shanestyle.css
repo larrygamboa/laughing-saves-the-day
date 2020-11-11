@@ -36,3 +36,6 @@ video {
 #landingDiv{
   height: 1080px;
 }
+#setup{
+  background-image: url(/images/Joker-Speechbubble.png);
+}

@@ -8,18 +8,58 @@
     background-size: cover;
 } */
 
-.icon-block {
-    background-color: aqua;
+/* .icon-block {
+    
     border: 3px solid #000;
     
-}
+} */
 
 .icon-block img{
     max-width: 100%;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    border: 3px solid white;
+    padding: 15px;
 }
-
+.icon-block:hover{
+    width: 100%;
+}
 
 @media only screen and (min-width: 993px) {
 .container {
     width: 100%;
+    
 }
+
+.comicbg {
+    background-color: black;
+
+}
+#impactpg1{
+    height:300px;
+  width: auto;
+  /* background: transparent left; */
+  transform: rotate(-20deg); 
+  margin-top: 100px;
+  margin-left: 100px;
+  transition: transform .2s cubic-bezier(0.35,-0.63, 0.74, 1.54);
+}
+.parent:hover #impactpg1{
+    transform: rotate(5deg);
+   
+
+}
+
+.joker{
+    margin-right: 25%;
+}
+#setup{
+    /* background-image: url(Joker-Speechbubble.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+  }

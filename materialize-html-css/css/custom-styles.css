@@ -1,6 +1,7 @@
 /* CUSTOM STYLES */
 .container {
     max-width: 100%;
+    max-height: auto;
 }
 
 /* #main-body {

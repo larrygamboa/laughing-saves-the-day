@@ -11,7 +11,7 @@ $(document).ready(function () {
       var currentMeme = response.memes[i].url
       console.log(currentMeme);
 
-      $("#img"+i).append("<img src=" + currentMeme + ">");}
+      $("#img"+i).html("<img src=" + currentMeme + ">");}
     });
   }
   
@@ -36,8 +36,7 @@ $(document).ready(function () {
     event.preventDefault();
     $("#setup").html(response.punchline);
     $("#nextJoke").html('<button id="nextBtn" class="btn-large waves-effect waves-light teal lighten-1">Next Joke</button>')
-    $("#nextBtn").on("click", function (event){
-      $("img").html("")
+    $("#nextBtn").on("click", function (event){     
       displayMeme();
       $("#setup").html("")
       $("#nextJoke").html('<button id="jokeButton" class="btn-large waves-effect waves-light teal lighten-1">Punchline</button>')

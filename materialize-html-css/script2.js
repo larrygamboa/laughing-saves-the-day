@@ -30,19 +30,31 @@ $(document).ready(function () {
       console.log(response.punchline);
 
         $("#jokeButton").on("click", function (event) {
+          
     var joke = "whatever";
     console.log(joke);
     event.preventDefault();
     $("#setup").html(response.punchline);
-    console.log(response.punchline);
+    $("#nextJoke").html('<button id="nextBtn" class="btn-large waves-effect waves-light teal lighten-1">Next Joke</button>')
+    $("#nextBtn").on("click", function (event){
+      $("img").html("")
+      displayMeme();
+      $("#setup").html("")
+      $("#nextJoke").html('<button id="jokeButton" class="btn-large waves-effect waves-light teal lighten-1">Punchline</button>')
+      displayJoke()
+    })
+  
+      
   });
+      
     });
   }
+  
 
 
   displayMeme();
   displayJoke();
-});
+
 
 $("#impactpg").on("click", function (){
   
@@ -50,4 +62,5 @@ $("#impactpg").on("click", function (){
   console.log("test Test")
 
 })
+});
 

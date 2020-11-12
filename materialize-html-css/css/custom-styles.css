@@ -25,42 +25,39 @@
 .icon-block img{
  
     border: 3px solid white;
-    
+    width: 100%;
 }
 
 #input-form{
-    position: relative;    
-    margin-left: 10%;
-    margin-top: 2%;
+    /* position: relative;     */
+    /* margin-left: 10%; */
+    /* margin-top: 2%; */
     height: 70px;
+    margin: 3% auto 0;
 
 }
 #meme-Search{
-    position: absolute;
-    margin-top: 10px;
+    /* position: absolute; */
+    /* margin-top: 10px; */
     height: 100px;
-    width: auto;
-    top: -40%;
-    left: 20%;
+    /* width: auto; */
+    /* top: -40%; */
+    /* left: 20%; */
     transform: rotate(25deg);
 }
 #meme-input{
     border-radius: 25px;
     background-color: white;
-    width: 40%;
+    width: 100%;
 }
 
-@media only screen and (min-width: 993px) {
-.container {
-    width: 100%;
-    
-}
+
+
 
 .comicbg {
     background-color: black;
 
 }
-
 #impactpg1{
     
     height:300px;
@@ -112,7 +109,7 @@
   -webkit-column-gap: 1em;
   -moz-column-gap: 1em;
   column-gap: 1em;
-   margin: 1.5em;
+   margin: 0;
     padding: 0;
     -moz-column-gap: 1.5em;
     -webkit-column-gap: 1.5em;
@@ -132,6 +129,10 @@
     box-shadow: 0px 0px 0px 0 #ccc;
 }
 .item img{max-width:100%;}
+
+
+
+
 @media only screen and (max-width: 320px) {
     .masonry {
         -moz-column-count: 1;
@@ -145,6 +146,9 @@
         -webkit-column-count: 2;
         column-count: 2;
     }
+
+    
+
 }
 @media only screen and (min-width: 769px) and (max-width: 1200px){
     .masonry {
@@ -160,3 +164,29 @@
         column-count: 4;
     }
 }
+
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 100%;
+        
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+.container {
+    width: 100%;
+}
+#impactpg1 {
+    margin:0;
+}
+.parallax-container .section {
+    position:relative;
+}
+}
+
+    
+
+
+

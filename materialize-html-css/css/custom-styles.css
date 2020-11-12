@@ -15,19 +15,39 @@
     
 } */
 
+#cloud{
+    background-image: url(cloud.png);
+    height: 10%;
+    width: auto;
+
+} 
+
 .icon-block img{
  
     border: 3px solid white;
     
 }
 
-#form{
+#input-form{
+    position: relative;    
     margin-left: 10%;
+    margin-top: 2%;
+    height: 70px;
 
 }
+#meme-Search{
+    position: absolute;
+    margin-top: 10px;
+    height: 100px;
+    width: auto;
+    top: -40%;
+    left: 20%;
+    transform: rotate(25deg);
+}
 #meme-input{
+    border-radius: 25px;
     background-color: white;
-    width: 10%;
+    width: 40%;
 }
 
 @media only screen and (min-width: 993px) {
@@ -40,6 +60,7 @@
     background-color: black;
 
 }
+
 #impactpg1{
     
     height:300px;

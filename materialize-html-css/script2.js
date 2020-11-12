@@ -1,7 +1,13 @@
 $(document).ready(function () {
   function displayMeme() {
-    var queryURL = "https://meme-api.herokuapp.com/gimme/dankmemes/12";
-    console.log(queryURL)
+
+  var getMemeInput = localStorage.getItem('memeInput')
+  console.log(getMemeInput)
+
+    if (getMemeInput === null){
+
+        var queryURL = "https://meme-api.herokuapp.com/gimme/dankmemes/12";
+    
 
     $.ajax({
       url: queryURL,
@@ -12,7 +18,25 @@ $(document).ready(function () {
       console.log(currentMeme);
 
       $("#img"+i).html("<img src=" + currentMeme + ">");}
-    });
+    });}
+    else {
+      var queryURL = "https://meme-api.herokuapp.com/gimme/" + getMemeInput + "/12";
+      console.log(queryURL);
+
+      $.ajax({
+        url: queryURL,
+        method: "GET",
+      }).then(function (response) {
+        for(i=0; i<12; i++){
+        var currentMeme = response.memes[i].url
+        console.log(currentMeme);
+  
+        $("#img"+i).html("<img src=" + currentMeme + ">");}
+      });
+
+
+    }
+
   }
   
   function displayJoke() {
@@ -57,6 +81,7 @@ $("#meme-Search").on("click", function(event){
   event.preventDefault()
   var memeinuput = $("#meme-input").val()
   memeinuput = memeinuput.replace(/\s/g, '');
+  localStorage.setItem('memeInput',(memeinuput));
   console.log($("#meme-input").val())
   function displayMeme2() {
         var queryURL = `https://meme-api.herokuapp.com/gimme/${memeinuput}/12`;

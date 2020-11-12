@@ -1,0 +1,41 @@
+#Background {
+    background-image: url(comicbg.jpg); 
+    background-repeat: no-repeat;
+   
+  background-position: center;
+  background-size: 100%;
+  height: 65vw;
+    
+}
+
+.headLine {
+    display: none;
+}
+
+
+
+
+#impactpg{
+  height:540px;
+  width: auto;
+  background: transparent center;
+ 
+  
+  
+}
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#landingDiv{
+  height: 1080px;
+}
+#setup{
+  background-image: url(/images/Joker-Speechbubble.png);
+}

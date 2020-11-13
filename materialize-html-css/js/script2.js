@@ -13,6 +13,8 @@ $(document).ready(function () {
         for (i = 0; i < 12; i++) {
           var currentMeme = response.memes[i].url;
           console.log(currentMeme);
+          
+          
 
           $("#img" + i).html("<img src=" + currentMeme + ">");
         }

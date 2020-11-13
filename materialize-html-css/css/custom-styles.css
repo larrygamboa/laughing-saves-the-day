@@ -43,7 +43,7 @@ video {
 /* main.html landing page */
 /* joker hero */
 #jokerBG {
-  background: url(../joker-bkgd-funny.jpg) #000 no-repeat;
+  background: url(../images/joker-bkgd-funny.jpg) #000 no-repeat;
   background-size: cover;
   height: 33%;
 }
@@ -89,7 +89,7 @@ video {
 }
 
 #cloud {
-  background-image: url(cloud.png);
+  background-image: url(../images/cloud.png);
   height: 10%;
   width: auto;
 }

@@ -58,13 +58,13 @@ $(document).ready(function () {
         event.preventDefault();
         $("#setup").html(response.punchline);
         $("#nextJoke").html(
-          '<button id="nextBtn" class="btn-large waves-effect waves-light teal lighten-1">Next Joke</button>'
+          '<a id="nextBtn"><img src="materialize-html-css/images/NewJoke.png"></a>'
         );
         $("#nextBtn").on("click", function (event) {
           displayMeme();
           $("#setup").html("");
           $("#nextJoke").html(
-            '<button id="jokeButton" class="btn-large waves-effect waves-light teal lighten-1">Punchline</button>'
+            '<a id="jokeButton"><img src="materialize-html-css/images/Punchline.png"></a>'
           );
           displayJoke();
         });

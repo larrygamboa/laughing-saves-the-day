@@ -35,6 +35,7 @@ https://meme-api.herokuapp.com/gimme/dankmemes/12
 
 ##### Example Response
 Object
+ "memes" [
  "postLink": "https://redd.it/jilgdw",
       "subreddit": "dankmemes",
       "title": "I forgot how hard it is to think of a title",
@@ -48,7 +49,8 @@ Object
         "https://preview.redd.it/jk12rq8nrhv51.jpg?width=216&crop=smart&auto=webp&s=b560b78301afd8c173f8c702fbd791214c1d7f61",
         "https://preview.redd.it/jk12rq8nrhv51.jpg?width=320&crop=smart&auto=webp&s=3cd427240b2185a3691a818774214fd2a0de124d",
         "https://preview.redd.it/jk12rq8nrhv51.jpg?width=640&crop=smart&auto=webp&s=1142cc19a746b8b5d8335679d1d36127f4a677b9"
-
+          ]
+ ]
 
 
 ## Contributing

@@ -93,6 +93,13 @@ video {
   height: 10%;
   width: auto;
 }
+#nextJoke{
+  transform: rotate(15deg);
+  transition-duration: 1s;
+}
+#nextJoke:hover {
+  transform: scale(1.25);
+}
 
 h2 {
     color: #FFF;

@@ -107,21 +107,24 @@ video {
 
 h2 {
   color: #fffd56;
-  font-size: 2em;
+  font-size: 3em;
   line-height: 1em;
   font-family: 'Luckiest Guy', cursive;
-  text-shadow: 4px 4px 5px black;
 }
 
 /* meme content div styles */
 .comicbg {
-  background-color: firebrick;
-  padding-top: 20px;
+  background: url(../images/comicmasonbg.jpg) #000 top center;
+  padding-top: 50px;
 }
 
 .icon-block img {
   border: 3px solid white;
   width: 100%;
+}
+
+.page-footer {
+  background-color: #ff0017;
 }
 
 /* Masonry container */

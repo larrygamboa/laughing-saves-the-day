@@ -53,8 +53,8 @@ Object
  ]
 
 ## Screenshots
-![alt text]()
-![alt text]()
+![alt text](https://github.com/larrygamboa/laughing-saves-the-day/blob/main/materialize-html-css/images/lsd-screenshot-desktop-main.png)
+![alt text](https://github.com/larrygamboa/laughing-saves-the-day/blob/main/materialize-html-css/images/lsd-screenshot-mobile-main.png)
 
 
 ## Contributing

@@ -21,10 +21,11 @@ body {
 #landingDiv a {
   display: block;
   margin: 0 auto;
+  text-align: center;
 }
 
 #impactpg {
-  max-width: 100%;
+  max-width: 50%;
   transition: transform 3s cubic-bezier(0.07, -2.87, 0.5, 3.04);
 }
 
@@ -179,6 +180,10 @@ h2 {
 
   .col .row {
       margin: 0;
+  }
+
+  #impactpg {
+    max-width: 100%;
   }
 
   #impactpg-main {

@@ -42,17 +42,20 @@ video {
 
 /* main.html landing page */
 /* joker hero */
+/* #mediaAdjust {
+  display: flex;
+  align-items: center;
+} */
+
 #jokerBG {
-  background: url(../images/joker-bkgd-funny.jpg) #000 no-repeat;
+  background: url(../images/joker-bkgd-funny.jpg) #000 no-repeat center;
   background-size: cover;
-  height: 33%;
+  /* height: 650px; */
 }
 
-
-
 #input-form {
-  height: 70px;
-  margin: 3% auto 0;
+  /* height: 70px; */
+  margin: 1em auto 0;
 }
 
 #form {
@@ -74,11 +77,12 @@ video {
   background-color: white;
   border-radius: 25px;
   width: 100%;
+  padding: 3px 15px 3px 15px;
 }
 
 #impactpg-main {
-  height: 300px;
-  width: auto;
+  /* height: 300px; */
+  /* width: auto; */
   max-width: 100%;
   transform: rotate(-20deg);
   transition: transform 5s cubic-bezier(0.07, -2.87, 0.5, 3.04);
@@ -102,16 +106,17 @@ video {
 }
 
 h2 {
-    color: #FFF;
-    font-size: 2em;
-    line-height: 1em;
-    font-family: 'Luckiest Guy', cursive;
-    text-shadow: 4px 4px 5px black;
+  color: #fffd56;
+  font-size: 2em;
+  line-height: 1em;
+  font-family: 'Luckiest Guy', cursive;
+  text-shadow: 4px 4px 5px black;
 }
 
 /* meme content div styles */
 .comicbg {
-  background-color: black;
+  background-color: firebrick;
+  padding-top: 20px;
 }
 
 .icon-block img {

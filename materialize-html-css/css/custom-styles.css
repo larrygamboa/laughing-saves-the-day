@@ -45,11 +45,6 @@ video {
 
 /* main.html landing page */
 /* joker hero */
-/* #mediaAdjust {
-  display: flex;
-  align-items: center;
-} */
-
 #jokerBG {
   background: url(../images/joker-bkgd-funny.jpg) #000 no-repeat center;
   background-size: cover;
@@ -201,6 +196,10 @@ h2 {
   #meme-input {
     width: 85%;
   }
+
+  h2 {
+    font-size: 2.25em;
+}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {

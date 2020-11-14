@@ -47,12 +47,11 @@ video {
 /* main.html landing page */
 /* joker hero */
 #jokerBG {
-  background: url(../images/joker-bkgd-funny-2.jpg) #000 no-repeat center;
+  background: url(../images/joker-bkgd-funny-2.jpg) #000 no-repeat right center;
   /* background-size: cover; */
 }
 
 #input-form {
-  /* height: 70px; */
   margin: 1em auto 0;
 }
 
@@ -79,8 +78,6 @@ video {
 }
 
 #impactpg-main {
-  /* height: 300px; */
-  /* width: auto; */
   max-width: 100%;
   transform: rotate(-20deg);
   transition: transform 5s cubic-bezier(0.07, -2.87, 0.5, 3.04);
@@ -112,7 +109,8 @@ h2 {
 
 /* meme content div styles */
 .comicbg {
-  background: url(../images/comicmasonbg2.jpg) #000 top center;
+  /* background: url(../images/comicmasonbg.jpg) #000 top center; */
+  background-color: #FFF;
   padding-top: 50px;
 }
 
@@ -230,6 +228,12 @@ h2 {
 @media only screen and (min-width: 993px) {
   .container {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 601px) {}
+  .container {
+      width: 100%;
   }
 }
 

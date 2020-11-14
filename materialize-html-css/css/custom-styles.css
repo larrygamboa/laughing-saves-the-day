@@ -109,8 +109,8 @@ h2 {
 
 /* meme content div styles */
 .comicbg {
-  /* background: url(../images/comicmasonbg.jpg) #000 top center; */
-  background-color: #FFF;
+ 
+  background-color: black;
   padding-top: 50px;
 }
 

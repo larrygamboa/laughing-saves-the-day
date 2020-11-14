@@ -48,8 +48,7 @@ video {
 /* joker hero */
 #jokerBG {
   background: url(../images/joker-bkgd-funny-2.jpg) #000 no-repeat center;
-  background-size: cover;
-  /* height: 650px; */
+  /* background-size: cover; */
 }
 
 #input-form {
@@ -190,9 +189,10 @@ h2 {
       transform: none;
   }
 
-  /* #jokerBG {
-      height: 700px;
-  } */
+  #jokerBG {
+      background-image: none;
+      background-color: #000;
+  }
 
   .center-img {
       text-align: center;

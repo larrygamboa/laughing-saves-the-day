@@ -105,7 +105,8 @@ h2 {
     color: #FFF;
     font-size: 2em;
     line-height: 1em;
-    font-family: url(/materialize-html-css/fonts/Choco\ Bear.otf);
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 4px 4px 5px black;
 }
 
 /* meme content div styles */

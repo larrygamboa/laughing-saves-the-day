@@ -6,6 +6,8 @@
     <title>Laughing Saves the Day!</title>
 
     <!-- CSS  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="materialize-html-css/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="materialize-html-css/css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
@@ -22,7 +24,14 @@
             <div id="form" class="center">
               <div><img id="meme-Search" src="materialize-html-css/images/cloud.png" /></div>
               <div>
-                <input type="text" id="meme-input" placeholder="Enter a Subreddit Here" value="">
+                <input list="text" id="meme-input" placeholder="Enter a Subreddit Here" value="">
+                <datalist id="text">
+                  <option value="dankmemes">
+                  <option value="Advice Animals">
+                  <option value="memes">
+                  <option value="prequelMemes">
+                  <option value="Funny">
+                </datalist>
               </div>
             </div>
           </form>
